@@ -2,7 +2,6 @@ import React from "react";
 import "../poster/Poster.css"
 import PosterLeft from "./PosterLeft";
 import PosterRight from "./PosterRight";
-
 import Fade from 'react-reveal/Fade';
 
 
