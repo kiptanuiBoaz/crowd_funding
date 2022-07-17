@@ -1,0 +1,19 @@
+.poster{
+   
+    height: 16cm;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.poster>.right{
+    justify-content: right;
+    
+    width: 50%;
+
+}
+
+.poster>.left{
+    justify-content: left;
+    
+}
