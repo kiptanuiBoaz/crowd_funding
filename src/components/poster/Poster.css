@@ -15,5 +15,166 @@
 
 .poster>.left{
     justify-content: left;
+    width: 50%;
+    background-color: #a1acd4;
     
 }
+
+/* the contactUs section */
+    /* section container */
+    .contactUs{
+        display: flex;
+        flex-wrap: wrap;
+        margin: -70px auto auto auto;
+        background-color: rgb(26, 26, 26);
+        padding: 30px;
+        
+    }
+    
+    .usefuLinks{
+      
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .usefuLinks>div{
+        padding: 20px 50px 5px 20px; 
+       
+    }
+
+    .usefuLinks>div>a {
+        text-decoration: none;
+        padding:20px;
+        color:#b1b9c0;
+        font-size: 1.6rem;
+        
+        
+    }
+
+    .usefuLinks>div>a:hover{
+        color:#fff;
+    }
+
+    .newsLetter{
+        color:#b1b9c0;
+        
+    }
+
+    .newsLetter>h1{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin: 30px 20px;
+    }
+    .newsLetter>input{
+        border-radius: 2%;
+        display: flex-box;
+        margin: 10px 5px;
+        line-height: 0.8cm;
+        border: 2px solid #e8a952;
+        border-radius: 4px;
+        outline: none;
+        width: 200px;
+    }
+
+    .newsLetter>input:focus{
+        border: 3px solid #fd8421;
+        border-radius: 4px;
+    }
+
+    .newsLetter>input::placeholder {
+        font-size: 1.1rem;
+        margin-bottom: -3px;
+    }
+
+    .newsLetter>a{
+        width: 150px;
+        height: 50px;
+        margin:-80px auto 30px auto;
+        font-size: 1.6rem;
+    } 
+
+    .newsButton>a>span{
+        margin: auto;
+    }
+
+    .newsButton>a:hover{
+        width: 180px;
+    }
+
+
+    .contactInfo{
+        font-size: 1.6rem;
+    }
+    .contactInfo>p>span{
+        color:rgb(205, 212, 216);
+       
+    }
+
+    .contactInfo>p:hover{
+        color:#fff;
+    }
+
+    .contactInfo>p{
+        color:#b4bbc1;
+    }
+
+    .bn31 {
+        color: white;
+        border-radius: 40px;
+        box-sizing: border-box;
+        border-width:10px; 
+        display: block;
+        height: 70px;
+        font-size: 1.9em;
+        position: relative; 
+        text-decoration: none;
+        width: fit-content;
+        z-index: 2;
+        margin: auto;
+        border: 2px solid #0e0e10;
+        top: 100px;
+    }
+      
+    .bn31:hover {
+        color:  #0e0e10;
+        font-weight: 600;
+        background-image: linear-gradient(to right, #808080 0%, #0e0e10 100%);
+        border: transparent;
+    }
+
+    .bn31span:hover::after{
+        content: " \00bb";
+    }
+      
+    /* the button and the text inside the button */
+    .bn31 .bn31span {
+        align-items: center;
+        background: #0e0e10;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        transition: background 0.5s ease;
+        background:transparent;
+        width: 100%;
+    }
+
+    /* the text */
+    .bn31span{
+        margin: -3px 50px 0px auto;
+
+    }
+      
+    /* when button is hovereda and the text */
+    .bn31:hover .bn31span {
+        background: transparent;
+    }
+
+    .navBtn{ 
+        top:-20px;
+        margin-top:-40px;   
+        position: relative;
+        font-size: 1.0rem;
+     }

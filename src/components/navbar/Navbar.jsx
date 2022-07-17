@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink ,Nav, Bars , NavMenu} from "./NavElements";
+import ReserveButton from "../poster/ReserveButton";
 
 
 function Navbar() {
@@ -13,11 +14,12 @@ function Navbar() {
         <NavMenu>
           <NavLink to="/" style={
             {marginRight:"450px",
-             color:"#ffba5a",
+             color:"white",
              marginLeft:"10px",
+             background:"#2e2f36",
              fontSize:"2.6rem"}}
             >
-            AW3SOM3
+            AW<span style={{color:"#4b6fad"}}>3</span>SOM<span style={{color:"#4b6fad"}}>3</span>
           </NavLink>
 
           <NavLink to='/story' className={"navlink"} activeStyle>
@@ -33,7 +35,10 @@ function Navbar() {
           </NavLink>
 
           <NavLink to={{pathname:"http://www.thefranchise.co.ke/"}}  target="_blank" className={"navlink"} activeStyle>
-            Donate Now
+          <ReserveButton 
+            className="navBtn"
+            text = "$ Donate now"
+            />
           </NavLink>
 
         </NavMenu>
