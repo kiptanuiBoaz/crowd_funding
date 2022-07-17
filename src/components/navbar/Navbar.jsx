@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink ,Nav, Bars , NavMenu} from "./NavElements";
-import ReserveButton from "../poster/ReserveButton";
+import NavButton from "./NavButton ";
+import  "./nav.css"
 
 
 function Navbar() {
@@ -35,9 +36,8 @@ function Navbar() {
           </NavLink>
 
           <NavLink to={{pathname:"http://www.thefranchise.co.ke/"}}  target="_blank" className={"navlink"} activeStyle>
-          <ReserveButton 
-            className="navBtn"
-            text = "$ Donate now"
+            <NavButton
+              text = "$ Donate now"
             />
           </NavLink>
 
