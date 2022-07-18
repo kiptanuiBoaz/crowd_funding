@@ -3,6 +3,8 @@
     height: 16cm;
     display: flex;
     flex-wrap: wrap;
+    margin-top: -12px;
+    
 
 }
 
@@ -16,7 +18,9 @@
 .poster>.left{
     justify-content: left;
     width: 50%;
-    background-color: #a1acd4;
+    background-color: #9dbed8ab;
+    margin-top: 77px;
+    margin-left: -10px;
     
 }
 
@@ -25,9 +29,10 @@
     .contactUs{
         display: flex;
         flex-wrap: wrap;
-        margin: -70px auto auto auto;
+        margin:  auto;
         background-color: rgb(26, 26, 26);
-        padding: 30px;
+        padding: 45px;
+        padding-top: 120px;
         
     }
     
@@ -72,14 +77,14 @@
         display: flex-box;
         margin: 10px 5px;
         line-height: 0.8cm;
-        border: 2px solid #e8a952;
+        border: 2px solid rgba(52, 82, 130, 0.977);
         border-radius: 4px;
         outline: none;
         width: 200px;
     }
 
     .newsLetter>input:focus{
-        border: 3px solid #fd8421;
+        border: 3px solid blue;
         border-radius: 4px;
     }
 
@@ -128,6 +133,7 @@
         display: block;
         height: 70px;
         font-size: 1.9em;
+        font-weight: 500;
         position: relative; 
         text-decoration: none;
         width: fit-content;

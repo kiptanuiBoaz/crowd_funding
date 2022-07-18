@@ -1,7 +1,17 @@
 import React from "react";
 
 function navButton(props) {
-    return <a onClick={props.btnClicked} class="bn32" href="/"><span class="bn32span">{props.text}</span></a>;
+    return(<a 
+        
+        class="bn32"
+        rel="noreferrer"
+        target = "_blank" 
+        href="https://heylink.me/leon7/">
+            <span class="bn32span">
+                {props.text}
+            </span>
+        </a>
+    )
 }
 
 export default navButton;

@@ -38,6 +38,8 @@ function SignUpForm (){
             <ReserveButton
               text={"Subscribe"}
               btnclicked= {handleClick}
+              tcolor ={"white"}
+              bcolor={"blue"}
             />
           </div>
         </form>

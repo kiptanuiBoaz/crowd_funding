@@ -13,12 +13,13 @@
     margin: auto;
     border: 2px solid white;
     top: 5px;
+    overflow: hidden;
 }
   
 .bn32:hover {
     color: #0e0e10;
     font-weight: 600;
-    background-image: linear-gradient(to right, #808080 0%,  #a1acd4 100%);
+    background-image: linear-gradient(to right, #808080 0%,  #9dbed8ab 100%);
     border: transparent;
 }
 

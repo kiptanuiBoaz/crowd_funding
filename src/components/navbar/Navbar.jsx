@@ -5,7 +5,12 @@ import  "./nav.css"
 
 
 function Navbar() {
-
+  const style ={
+    marginLeft:"50px",
+    '@media (max-width:  600px))': {
+      display: 'none',
+    }
+  }
 
   return (
     <>
@@ -23,7 +28,7 @@ function Navbar() {
             AW<span style={{color:"#4b6fad"}}>3</span>SOM<span style={{color:"#4b6fad"}}>3</span>
           </NavLink>
 
-          <NavLink to='/story' className={"navlink"} activeStyle>
+          <NavLink to='/story' style={style} className={"navlink"} activeStyle>
             Our Story
           </NavLink>
 
@@ -31,11 +36,15 @@ function Navbar() {
             Contact Us
           </NavLink>
 
-          <NavLink to={{pathname:"https://heylink.me/leon7/"}} target="_blank" className={"navlink"} activeStyle>
-            Our Project
+          <NavLink 
+          to={{pathname:"https://heylink.me/leon7/"}} target="_blank" 
+          className={"navlink"} activeStyle>
+           <a target="blank"  rel="noreferrer" style={{color:"white", textDecoration:"none"}} href="http://www.thefranchise.co.ke/"> Our Project</a>
           </NavLink>
 
-          <NavLink to={{pathname:"http://www.thefranchise.co.ke/"}}  target="_blank" className={"navlink"} activeStyle>
+          <NavLink 
+          to={{pathname:"http://www.thefranchise.co.ke/"}}  target="_blank" 
+          className={"navlink"} activeStyle>
             <NavButton
               text = "$ Donate now"
             />

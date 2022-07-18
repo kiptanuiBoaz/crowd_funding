@@ -1,6 +1,7 @@
 import React from "react";
 import ReserveButton from "./ReserveButton";
 import Typed from 'react-typed';
+import Jump from 'react-reveal/Jump';
  
 function PosterLeft(){
     return(
@@ -23,11 +24,13 @@ function PosterLeft(){
                 loop 
             />
 
+            <Jump  delay= {1000} count={5}>
+                <ReserveButton
+                    className="navBtn"
+                    text = "$ Donate now"
+                />
+            </Jump>
             
-            <ReserveButton
-                className="navBtn"
-                text = "$ Donate now"
-            />
         </div>
     )
 }
