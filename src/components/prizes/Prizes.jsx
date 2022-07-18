@@ -4,7 +4,7 @@ import prizesList from "../prizes/prizesList";
 
 
 
-function Rooms() {
+function Prizes() {
     return (
       <section  className= {"rooms"}>
         <div>
@@ -12,16 +12,16 @@ function Rooms() {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
         </div>
         <div className={"room-card"}>
-          {roomsList.map((roomsList)=>{
+          {prizesList.map((prizesList)=>{
             return(
             
               <PrizeCard
                 // className="roomCardElements"
-                key = {roomsList.id}
-                imageSource={roomsList.image.source}
-                alt = {roomsList.image.alt}
-                name={roomsList.name}
-                price={roomsList.price}
+                key = {prizesList.id}
+                imageSource={prizesList.image.source}
+                alt = {prizesList.image.alt}
+                name={prizesList.name}
+                price={prizesList.price}
                 
               />
             

@@ -9,3 +9,5 @@ function Ruffle(){
         </div>
     )
 }
+
+export default Ruffle;

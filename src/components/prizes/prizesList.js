@@ -1,8 +1,8 @@
-const roomsList = [
+const prizeList = [
     {
         id:1,
         name: "Single Room",
-        image: {source:"https://images.unsplash.com/photo-1611892440504-42a792e24d32?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aG90ZWwlMjByb29tfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+        image: {source:"../components/images/pic1.jpg",
             alt:"Single Room"},
         price: "90$ / PER NIGHT"
     },
@@ -30,4 +30,4 @@ const roomsList = [
 
 ];
 
-export default roomsList;
+export default prizeList;
