@@ -23,7 +23,10 @@ function Navbar() {
              color:"white",
              marginLeft:"10px",
              background:"#2e2f36",
-             fontSize:"2.6rem"}}
+             fontSize:"2.6rem",
+             
+             }
+            }
             >
             AW<span style={{color:"#4b6fad"}}>3</span>SOM<span style={{color:"#4b6fad"}}>3</span>
           </NavLink>
