@@ -11,9 +11,9 @@ function ContactUs(){
                 <ImLocation2 className="topIcon"/>
                 <p><span>Address:&nbsp;</span> Off Mombasa Road Nairobi</p>
                 <FaPhoneAlt  className="restIcon"/>
-                <p><span>Phone:&nbsp;</span>+254 722 222 444</p>
+                <p><span>Phone:&nbsp;</span>+254759843191</p>
                 <MdEmail  className="restIcon"/> 
-                <p><span>Email:&nbsp;</span>sogy.mail@yahoo.com</p>
+                <p><span>Email:&nbsp;</span>awesome.mail@yahoo.com</p>
              
             
             </div>

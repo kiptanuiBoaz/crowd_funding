@@ -1,27 +1,27 @@
 const links =[
     {
         href:"#",
-        text:"About Us"
+        text:"Free Marketing"
     },
 
     {
         href:"#",
-        text:"Terms & Conditions"
+        text:"Financial Security"
     },
 
     {
         href:"#",
-        text:"Rooms & Suites"
+        text:"A two model affiliate program"
     },
 
     {
         href:"#",
-        text:"Contact Us"
+        text:"100% Credit Extension"
     },
     
     {
         href:"#",
-        text:"Restaurant"
+        text:"Monetary safety"
     }
 ];
 

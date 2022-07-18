@@ -7,9 +7,9 @@ import prizesList from "../prizes/prizesList";
 function Prizes() {
     return (
       <section  className= {"rooms"}>
-        <div>
-          <h1>Rooms & Suites</h1> 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+        <div >
+          <h1 style={{color:"#02051e"}}>Win Prizes!!</h1> 
+          <p>The August elction is almost here with us. We appeal to you to contribute and stand a chance to one one of the five pairs of sneakers. Two pairs of AJF Convers , two pairs of Puma Mirage sneakers and one Pair of Evolve sneakers. When you contribute, you make our dream come true, tha is revolutionalizing e-commerce.  </p>
         </div>
         <div className={"room-card"}>
           {prizesList.map((prizesList)=>{

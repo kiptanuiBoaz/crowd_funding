@@ -3,7 +3,8 @@ import "../poster/Poster.css"
 import PosterLeft from "./PosterLeft";
 import PosterRight from "./PosterRight";
 import Fade from 'react-reveal/Fade';
-import Ruffle from "../poster/ruffle"
+import Ruffle from "../poster/ruffle";
+import Reserve from "../reserve/Reserve"
 
 
 function Poster() {
@@ -15,9 +16,11 @@ function Poster() {
         
             <PosterLeft/>
             <PosterRight/> 
-            <Ruffle/>      
+                
         </div>
       </Fade>
+      <Ruffle/> 
+      <Reserve/>
     </>
   );
 }

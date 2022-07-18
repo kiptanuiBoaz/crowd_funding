@@ -7,9 +7,9 @@ function PosterLeft(){
     return(
          
         <div className="left">
-            <p>TRANSFORMING E-COMMERCE</p>
-            <p>PLEASE HELP US PROVIDE FREE AND SAFE ONLINE TRADING AND SOLVE THE PROBLEM OF ONLINE FRAUD </p>
-            <p>PRIZE</p>
+            <p className="p1">TRANSFORMING E-COMMERCE</p>
+            <p className="p2">PLEASE HELP US PROVIDE FREE AND SAFE ONLINE TRADING AND SOLVE THE PROBLEM OF ONLINE FRAUD </p>
+            <p className="p3">There are prizes to be won, donate between $1 and $5.</p>
             
             <Typed 
                 className="typing-effect"

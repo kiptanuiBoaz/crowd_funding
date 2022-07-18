@@ -1,28 +1,28 @@
 const prizeList = [
     {
         id:1,
-        name: "Single Room",
-        image: {source:"../components/images/pic1.jpg",
-            alt:"Single Room"},
-        price: "90$ / PER NIGHT"
+        name: "AJF Convers",
+        image: {source:"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/index-2-1-1617378384.jpg?crop=0.502xw:1.00xh;0.250xw,0&resize=640:*",
+            alt:"convers"},
+        price: "1 pair"
     },
 
     {
         id:2,
-        name:"Family Room",
-        image:{source: "https://images.unsplash.com/photo-1594130139005-3f0c0f0e7c5e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGhvdGVsJTIwYmVkcm9vbXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
-            alt:"Family Room"},
-        price: "120$ / PER NIGHT"
+        name:"Puma Mirage Sport",
+        image:{source: "https://cdn.luxe.digital/media/20220215123954/best-men-sneakers-balanciaga-triple-s-luxe-digital-780x520.jpg",
+            alt:"Puma Mirage "},
+        price: "2 pairs"
 
     },
 
     {
         id:3,
-        name:"Presidential Room",
+        name:"Evolve Sneaker",
         image:{
-            source:"https://images.unsplash.com/photo-1591088398332-8a7791972843?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aG90ZWwlMjBiZWRyb29tfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60", 
-            alt:"Presidential Room"  },
-        price: "250$ / PER NIGHT"
+            source:"https://www.side-step.co.za/pub/media/catalog/product/cache/eef66214e8610e05035493e1e69eb234/p/m/pma3638w-puma-mirage-tech-white-38310701-v1_jpg_1.jpg", 
+            alt:"Evolve"  },
+        price: "2 pairs"
         
     }
 
