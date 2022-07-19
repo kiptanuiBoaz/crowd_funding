@@ -4,7 +4,8 @@ import PosterLeft from "./PosterLeft";
 import PosterRight from "./PosterRight";
 import Fade from 'react-reveal/Fade';
 import Ruffle from "../poster/ruffle";
-import Reserve from "../reserve/Reserve"
+import Reserve from "../reserve/Reserve";
+import Footer from '../Footer'
 
 
 function Poster() {
@@ -21,6 +22,7 @@ function Poster() {
       </Fade>
       <Ruffle/> 
       <Reserve/>
+      <Footer/>
     </>
   );
 }

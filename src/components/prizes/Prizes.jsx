@@ -8,7 +8,13 @@ function Prizes() {
     return (
       <section  className= {"rooms"}>
         <div >
-          <h1 style={{color:"#02051e"}}>Win Prizes!!</h1> 
+          <h1 
+            style={{
+              color:"#02051e",
+              fontFamily: "cursive"
+              }}
+              >Win Prizes!!
+          </h1> 
           <p>The August elction is almost here with us. We appeal to you to contribute and stand a chance to one one of the five pairs of sneakers. Two pairs of AJF Convers , two pairs of Puma Mirage sneakers and one Pair of Evolve sneakers. When you contribute, you make our dream come true, tha is revolutionalizing e-commerce.  </p>
         </div>
         <div className={"room-card"}>

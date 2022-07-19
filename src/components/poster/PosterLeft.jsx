@@ -8,7 +8,7 @@ function PosterLeft(){
          
         <div className="left">
             <p className="p1">TRANSFORMING E-COMMERCE</p>
-            <p className="p2">PLEASE HELP US PROVIDE FREE AND SAFE ONLINE TRADING AND SOLVE THE PROBLEM OF ONLINE FRAUD </p>
+            <p className="p2">HELP US PROVIDE FREE AND SAFE ONLINE TRADING AND SOLVE THE PROBLEM OF ONLINE FRAUD </p>
             <p className="p3">There are prizes to be won, donate between $1 and $5.</p>
             
             <Typed 

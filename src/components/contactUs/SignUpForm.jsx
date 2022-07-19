@@ -40,6 +40,10 @@ function SignUpForm (){
               btnclicked= {handleClick}
               tcolor ={"white"}
               bcolor={"blue"}
+
+              style={{
+                marginTop:"3opx"
+              }}
             />
           </div>
         </form>

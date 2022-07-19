@@ -27,7 +27,7 @@
     content: " \00bb";
 }
   
-/* the button and the text inside the button */
+
 .bn32 .bn32span {
     align-items: center;
     background: #0e0e10;
@@ -40,13 +40,13 @@
     width: 100%;
 }
 
-/* the text */
+
 .bn32 span{
     margin: 0px 50px 0px auto;
 
 }
   
-/* when button is hovered  and the text */
+
 .bn32:hover .bn31span {
     background: transparent;
 }

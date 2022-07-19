@@ -4,9 +4,10 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: -12px;
-    
-
+    font-family: cursive;
 }
+
+
 
 .poster>.right{
     justify-content: right;
@@ -18,9 +19,11 @@
 .poster>.left{
     text-align: left;
     width: 50%;
-    background-color: #a6b5c0ab;
+    background-color: #c2ddf0ab;
     margin-top: 77px;
     margin-left: -10px;
+    color:#1a1a21;
+    margin-bottom: 4px;
     
 }
 
@@ -29,6 +32,7 @@
     font-size: large;
     font-weight: bold;
     margin-left: 20px;
+  
 }
 
 .left> .p2{
@@ -47,12 +51,10 @@
     margin-left: 20px;
 }
 
-/* the contactUs section */
-    /* section container */
     .contactUs{
         display: flex;
         flex-wrap: wrap;
-        margin:  auto;
+        margin:  -10px auto auto auto;
         background-color: rgb(26, 26, 26);
         padding: 45px;
         padding-top: 120px;
@@ -164,7 +166,7 @@
         z-index: 2;
         margin: auto;
         border: 2px solid #0e0e10;
-        top: 100px;
+        top: 90px;
         background: #111115;
     }
       
@@ -175,11 +177,7 @@
         border: transparent;
     }
 
-    .bn31span:hover::after{
-        content: " \00bb";
-    }
-      
-    /* the button and the text inside the button */
+
     .bn31 .bn31span {
         align-items: center;
         
@@ -198,7 +196,7 @@
 
     }
       
-    /* when button is hovered  and the text */
+
     .bn31:hover .bn31span {
         background: transparent;
     }
@@ -214,13 +212,15 @@
         margin-top: 160px;
         padding: auto;
         
+        
     }
     .prizeTop>h1{
         margin-left: 30px;
         color:#02051e;
+        font-family: cursive;
     }
 
-    /* the description inside the rooms div */
+
     .rooms>div>p{
         width: 60%;
         margin: 0 auto;
@@ -241,7 +241,7 @@
      
     }
 
-    /* the rooms card picture */
+
    .room-card img{
         height: 7cm;
         width: auto;
@@ -250,11 +250,11 @@
         border-radius: 2%;
    }
 
-   /* room pic effecton hover */
+
    .room-card img:hover{
         transform: scale(1.1);
    }
-   /* the room type name */
+
     .roomCard> header{
         color: #4b6fad;
         font-size: 1.5rem;
@@ -263,7 +263,7 @@
     }
 
     
-    /* the room pricings */
+
     .roomCard> footer{
         font-size: 1rem;
         font-family: monospace;
@@ -277,24 +277,10 @@
     }
 
 
-    * reserve container styling */
     /* cover */
-    .reserve{
-        background-attachment: fixed;
-        margin-top: 30px;
-        font-size:x-large ;
-        color: #fff;
-        background-position: center;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 5%;
-        margin-bottom: 70px;
-        background-image:linear-gradient( rgba(0, 0, 0, 0.814), rgba(0, 0, 0, 0.711) ),
-        url("https://www.fieldengineer.com/blogs/career-in-technical-support-and-help-desk");
-        
-    }
+  
 
-    /* we alsa offer */
+
     .reserve ul{
         list-style-type:none;
         
@@ -348,9 +334,60 @@
 
     .reserve>:nth-child(2){
         padding-left:35px;
-        width: 200px;
+        width: 300px;
         
     }
 
+    .story{
+        font-family: cursive;
+        padding: 75px 40px 40px;
+        margin-top: -10px;
+    }
+
+    /* footer styling */
+
+    .footer{
+        background-color:rgb(0, 0, 0);
+        color:#fff;
+        padding:30px;
+        font-size: 1.3rem;
+        margin-top: -70px;
+    }
+
+    .footertop{
+       text-align: center;
+
+    }
+    .footer>div>img{
+        height: 50px;
+        border-radius: 50%;
+    }
+
+    .footer>div>a{
+        display: block;
+        margin: 15px;
+        color:#818c95;
+        text-decoration: none;
+    }
+
+    .footer>div>a:hover{
+      
+        color: navy;
+        
+    }
+
+    .icons{
+        display: flex;
+        justify-content: center;
+    }
+
+    .topIcon{
+        color:navy;
+        margin-top: 30px;
+    }
+
+    .restIcon{
+        color: navy;
+    }
  
    
